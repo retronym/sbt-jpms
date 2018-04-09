@@ -1,0 +1,13 @@
+> plugins 
+
+> compile
+
+> show sawdustAlpha/mainClass
+
+> eval println(file(".").getAbsolutePath)
+
+> sawdustAlpha/run
+
+> sawdustAlpha/test:run
+
+> userView/test:run
