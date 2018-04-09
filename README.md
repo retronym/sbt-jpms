@@ -8,6 +8,13 @@ Provides experimental support for [JEP 261: Module System](http://openjdk.java.n
 the `--module-path` and related settings when compiling and executing tests/code from sub projects with
 this plugin enabled.
 
+## Caveats
+
+  - Still under development, bugs are likely, and API will change.
+  - Compiling module-info.java files in SBT is not supported until [sbt/zinc#522](https://github.com/sbt/zinc/pull/522) is included in a release
+  - Forked mode is required
+  - `scalac` support for for JPMS is still pending (but will be integrated here once available)
+
 ## Usage
 
 ### Adding plugin
